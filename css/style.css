@@ -1,0 +1,274 @@
+
+
+
+/*.header{
+       min-height: 100px; 
+       background-color: blue;
+}
+
+.wrapper{
+         overflow: hidden;        
+}
+.contact{
+       min-height: 200px;
+       background-color: cadetblue;
+       width: 70%;
+       float: left; 
+}      
+.blog{
+       min-height: 200px;
+       background-color: crimson;
+       width: 30%;
+       float: right;  
+}
+
+.container{
+          overflow: hidden;
+}
+.box{
+    min-height: 150px; 
+    width: 10%;
+    float: left;  
+}
+.blue{
+       background-color: chartreuse;
+}
+.yellow{
+       background-color: darkmagenta;
+}
+.green{
+       background-color: darkturquoise;
+}
+.lime{
+       background-color: lime;
+}
+.red{
+     background-color: darkred;         
+
+}
+
+.black{
+       background-color: indigo;
+}
+
+
+.color1{
+       background-color: rgb(28, 27, 43);
+}
+.color2{
+       background-color: rgb(11, 8, 17);
+}
+.color3{
+       background-color: red;
+}
+.color4{
+       background-color: rgb(168, 85, 18);
+}
+
+
+.footer{
+       min-height: 100px;
+       background-color: darkgoldenrod;
+}*/
+
+body{
+     background-color: rgb(65, 225, 217);
+
+}
+
+.iframe{
+       width:100% ; 
+       height: 400px; 
+
+}
+h2{
+   color: salmon;
+
+}
+.black{
+      color: black;
+
+}
+.yellow{
+        color: black;
+
+}
+
+p.dotted {border-style: dotted; color: rgb(124, 23, 23);}
+p.dashed {border-style: dashed; color: blue;}
+p.solid {border-style: solid; color: rgb(12, 7, 7);}
+p.double {border-style: double; color: darkcyan;}
+p.groove {border-style: groove; color: darkorchid;}
+p.ridge {border-style: ridge;}
+p.inset {border-style: inset;}
+p.outset {border-style: outset;}
+p.none {border-style: none;}
+p.hidden {border-style: hidden;}
+p.mix {border-style: dotted dashed solid double;}
+p.normal {
+  border: 2px solid red;
+  padding: 5px;
+}
+
+p.round1 {
+  border: 2px solid rgb(161, 10, 10);
+  border-radius: 5px;
+  padding: 5px;
+  
+}
+
+p.round2 {
+  border: 2px solid rgb(21, 79, 126);
+  border-radius: 8px;
+  padding: 5px;
+}
+
+p.round3 {
+  border: 2px solid rgb(121, 95, 11);
+  border-radius: 12px;
+  padding: 5px;
+}
+div {
+  border: 1px solid black;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+  background-color: lightblue;
+}
+.padding{
+  padding: 70px;
+  border: 1px solid #4CAF50; 
+
+
+}
+.height{
+  height: 50px;
+  width: 100%;
+  border: 1px solid #4CAF50; 
+
+
+
+}
+.box{
+  background-color: rgb(211, 211, 211);
+  width: 300px;
+  border: 20px solid rgb(128, 0, 32);
+  padding: 50px;
+  margin: 20px;
+
+}
+.center{
+       text-align: center;
+
+}
+.left{
+     text-align: left;
+}
+.right{
+      text-align: right;
+}
+.ol{
+  text-decoration: overline; 
+
+}
+.lt{
+  text-decoration: line-through;
+
+}
+.ut{
+  text-decoration: underline;
+
+}
+p.uppercase {
+  text-transform: uppercase;
+}
+
+p.lowercase {
+  text-transform: lowercase;
+}
+
+p.capitalize {
+  text-transform: capitalize;
+}
+
+.spacing{
+  text-indent: 50px;
+}
+.p1 {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.p2 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.p3 {
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+.owtest{
+    background: #aec0af;
+    color: black;
+    padding: 20px;
+    width: 50%;
+    height: 100px;
+    overflow: scroll;
+    border: 1px solid #ccc;
+  }
+  a.highlight:hover {
+    color: #ff0000;
+    font-size: 22px;
+  } 
+  p::first-line {
+    color: #ff0000;
+    font-variant: small-caps;
+  }
+  img {
+    opacity: 0.5;
+  }
+  
+  img:hover {
+    opacity: 1.0;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li a {
+    display: block;
+    width: 60px;
+    background-color: #dddddd;
+  }
+  input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .form {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
